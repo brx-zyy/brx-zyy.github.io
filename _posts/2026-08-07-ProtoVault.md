@@ -20,7 +20,7 @@ tags:
   - data-breach
   - blue-team
 image:
-  path: /assets/kitty.jpg
+  path: /assets/offsec.jpg
 ---
 
 ## ProtoVault Breach - Investigation

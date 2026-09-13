@@ -1,16 +1,5 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-
-- type: discord
-  icon: "fa-brands fa-discord"
-  link: "https://discord.com/users/1384363270881939615"
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

@@ -3,4 +3,8 @@
 icon: fas fa-info-circle
 order: 4
 ---
-hi, i'm <code style="color: rgb(138, 180, 248);">{brxzyy}</code>.
+
+Hi, I'm <code style="color: rgb(138, 180, 248);">{Brxzyy}</code>.
+
+**Email:** [brxzyy@keemail.me](mailto:brxzyy@keemail.me)  
+**PGP:** [public key](https://github.com/assets/brxzyy.asc)

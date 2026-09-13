@@ -20,7 +20,7 @@ tags:
   - data-breach
   - blue-team
 image:
-  path: /assets/offsec.jpg
+  path: /assets/pro.jpg
 ---
 
 ## ProtoVault Breach - Investigation
@@ -28,16 +28,6 @@ image:
 **Format:** Source code and Git history forensics
 **Scope:** A Flask asset management app and its Git repository
 
-## Overview
-
-This challenge hands you a source code archive and asks you to trace a real database leak back to its origin. Nothing here needs exploitation, it's pure investigation, reading code, reading Git history, and following a trail of things a developer meant to delete but couldn't quite scrub away. The path looks like this:
-
-1. The application's own `app.py` stores its PostgreSQL connection string and Flask secret key in plaintext, a real weakness, but not actually the source of the leak.
-2. Git commit history shows two backup and restore scripts, `backup_db.py` and `restore_db.py`, were added early on and later deliberately removed.
-3. Checking out an old commit recovers `backup_db.py`, which reveals the backup process ROT13-encodes a full `pg_dump` of the database before uploading it to an S3 bucket.
-4. Checking out a still earlier commit shows the S3 bucket name and key were different in an older version of the same script, and that earlier address is the one that's actually live and public.
-5. Downloading the object with no credentials at all confirms the bucket has no access control whatsoever.
-6. Reversing the ROT13 encoding with `tr` recovers a fully readable PostgreSQL dump, complete with every user's password hash.
 
 ## Getting the Files
 

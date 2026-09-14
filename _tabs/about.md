@@ -7,4 +7,4 @@ order: 4
 Hi, I'm <code style="color: rgb(138, 180, 248);">{Brxzyy}</code>.
 
 **Email:** [brxzyy@keemail.me](mailto:brxzyy@keemail.me)  
-**PGP:** [public key](https://github.com/brx-zyy/brx-zyy.github.io/blob/main/assets/brxzyy.asc)
+**PGP:** [public key](https://raw.githubusercontent.com/brx-zyy/brx-zyy.github.io/refs/heads/main/assets/brxzyy.asc)

@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Brxzyy # the main title
+title: shxtterme # the main title
 
 tagline: InfoSec Write-Ups
 description: >- # used by seo meta and the atom feed
@@ -22,10 +22,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://brx-zyy.github.io"
+url: "https://shxtterme.github.io"
 
 github:
-  username: brx-zyy # change to your GitHub username
+  username: shxtterme # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -33,8 +33,8 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: brxzyy
-  email: brxzyy@keemail.me # change to your email address
+  name: shxtterme
+  email: shxtterme@keemail.me # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
@@ -85,7 +85,7 @@ pageviews:
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/121836940?v=4
+avatar: avatars.githubusercontent.com/u/121836940?v=4
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
